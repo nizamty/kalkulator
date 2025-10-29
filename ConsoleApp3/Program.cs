@@ -1,0 +1,20 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Привет я калькулятор!Введите два ваших числа");
+Console.WriteLine("введите свое первое число");
+string a = Console.ReadLine();
+double firstNumber;
+firstNumber = Convert.ToDouble(a);
+Console.WriteLine("введите свое первое число");
+string b = Console.ReadLine();
+double twiceNumber;
+twiceNumber = Convert.ToDouble(b);
+double sum = firstNumber + twiceNumber;
+double difference = firstNumber - twiceNumber;
+double product = firstNumber * twiceNumber;
+double quotient = firstNumber/twiceNumber;
+Console.WriteLine("--- Результаты ---");
+Console.WriteLine($"{firstNumber} + {twiceNumber} = {sum}");
+Console.WriteLine($"{firstNumber} - {twiceNumber} = {difference}");
+Console.WriteLine($"{firstNumber} * {twiceNumber} = {product}");
+Console.WriteLine($"{firstNumber} / {twiceNumber} = {quotient}");
+Console.ReadLine();
